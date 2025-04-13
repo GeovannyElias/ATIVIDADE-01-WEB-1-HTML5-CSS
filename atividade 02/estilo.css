@@ -1,0 +1,129 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    background-color: rgba(255, 255, 255, 0.812);
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+}
+
+
+
+.titulo {
+    text-align: center;
+    color:rgb(13, 0, 255);
+    text-shadow: 2px 2px 6px rgb(2, 56, 232);
+}
+
+h2{
+    color:azure;
+    text-shadow: 2px 2px 2px rgb(27, 19, 142);
+    
+
+}
+
+div img{
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px rgb(63, 63, 63);
+
+}
+
+.menu{
+    margin: 2% 8% 0 8%;
+  
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    
+
+}
+.menu ul{
+    list-style-type: none;
+    background-color: rgb(25, 39, 163);
+    border-radius: 20px;
+}
+.menu li{
+
+    display:inline-block;
+    margin: 10px;
+    
+
+}
+.menu a:hover{
+    color:#00fff7;
+}
+
+main {
+   
+    padding: 5%;
+
+}
+.conteudo{
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(25, 39, 163);
+    color:rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 5px 10px rgb(68, 67, 67);
+
+}
+#tabela{
+
+    margin: 20px auto;
+    width: 80% ;
+}
+table{
+
+    width:  100%;
+    border-collapse: collapse;
+}
+thead th{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    border: 1px solid black;
+}
+td, th{
+
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: left;
+}
+#formulario{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+#formulario input{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+textarea{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.botao{
+    background-color: rgb(0, 187, 255);
+    color: #ffffff;
+    border-radius: 20px;
+    
+
+}
+#redessociais a{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    
+
+}
+#redessociais a:hover{
+    color: #00fff7;
+    
+
+}
